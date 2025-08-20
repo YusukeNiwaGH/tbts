@@ -124,7 +124,7 @@
             <div class="c-cta c-cta--no-image l-header__cta">
               <ul class="c-cta__list">
               <li class="c-cta__item"><a id="menu-cta" class="c-cta__link" href="/useful/download/"><div class="c-cta__link-image"><img src="<?php echo esc_url ( get_template_directory_uri() ); ?>/assets/images/header/header-download--sp.svg" alt=""></div><div class="c-cta__link-text">ダウンロード</div></a></li>
-              <li class="c-cta__item"><a id="menu-cta" class="c-cta__link" href="/form-inquiry/"><div class="c-cta__link-image"><img src="<?php echo esc_url ( get_template_directory_uri() ); ?>/assets/images/common/icon-mail.svg" alt=""></div><div class="c-cta__link-text">各種お問い合わせ</div></a></li>
+              <li class="c-cta__item"><a id="menu-cta" class="c-cta__link" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><div class="c-cta__link-image"><img src="<?php echo esc_url ( get_template_directory_uri() ); ?>/assets/images/common/icon-mail.svg" alt=""></div><div class="c-cta__link-text">各種お問い合わせ</div></a></li>
               </ul>
               <div class="c-cta__footer">
                 <p class="c-cta__footer-title">カスタマーサポートセンター</p>
@@ -142,7 +142,7 @@
             </span>
             <span class="l-header__cta-button-link--text">ダウンロード</span>
           </a>
-          <a id="header-cta" class="l-header__cta-button-link" href="/form-inquiry/">
+          <a id="header-cta" class="l-header__cta-button-link" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">
             <span class="l-header__cta-button-link--icon">
               <img src="<?php echo esc_url ( get_template_directory_uri() ); ?>/assets/images/header/header-mail.svg" alt="" width="21" height="15">
             </span>
