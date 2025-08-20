@@ -1,0 +1,18 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+
+# Node / PHP deps
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+*.map
+
+# Env / local settings
+.env
+*.local
